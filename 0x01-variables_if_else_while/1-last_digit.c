@@ -34,7 +34,7 @@ else
 	if (n == 0)
 	{
 			printf("Last digit of %d is %d and is 0\n",
-	    	n, n);
+	    n, n);
 	}
     else if (n % 10 > 5)
 	{
