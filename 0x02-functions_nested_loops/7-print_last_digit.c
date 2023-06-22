@@ -1,7 +1,6 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * print_last_digit
+ * print_last_digit - as the name says
  *
  * @a: the integer to be used
  *
@@ -9,7 +8,7 @@
  */
 int print_last_digit(int a)
 {
-printf("%d",
-a % 10);
+int b = a % 10;
+_putchar('b');
 return (a % 10);
 }
