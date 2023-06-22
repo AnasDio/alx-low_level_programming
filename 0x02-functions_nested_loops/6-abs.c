@@ -9,7 +9,6 @@
  */
 int _abs(int a)
 {
-int a;
 if (a < 0)
 {
 	printf("%d\n",
