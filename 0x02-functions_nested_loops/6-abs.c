@@ -3,21 +3,18 @@
 /**
  * _abs - computes the absolute value of an interger
  *
- * @int: the integer to be checked
+ * @a: the integer to be checked
  *
- * Return: 0 (Success)
+ * Return: integer
  */
 int _abs(int a)
 {
 if (a < 0)
 {
-	printf("%d\n",
-	a * -1);
+	return (a * -1);
 }
 else
 {
-	printf("%d\n",
-	a);
+	return (a);
 }
-return (0);
 }
