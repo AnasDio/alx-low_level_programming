@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _abs - computes the absolute value of an interger
  *
@@ -6,7 +7,7 @@
  *
  * Return: 0 (Success)
  */
-int _abs(int)
+int _abs(int a)
 {
 int a;
 if (a < 0)
