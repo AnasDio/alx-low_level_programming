@@ -3,12 +3,13 @@
 /**
  * print_last_digit - as the name says
  *
- * @a: the integer to be used
+ * @d: the integer to be used
  *
  * Return: last digit
  */
-int print_last_digit(int a)
+int print_last_digit(int d)
 {
+int a = d;
 if (a < 0)
 {
 	a = a * -1;
