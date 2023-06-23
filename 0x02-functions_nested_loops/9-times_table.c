@@ -1,0 +1,24 @@
+#include "main.h"
+/**
+ * times_table -  prints out the time table from 0 to 9
+ *
+ * Return: void
+ */
+void times_table(void)
+{
+int a, b, c;
+for (a = 0; a < 10; a++)
+{
+	for (b = 0; b < 10; b++)
+	{
+		c = a * b;
+		_putchar(c + '0');
+		if (b < 9)
+		{
+			_putchar(',');
+			_putchar(' ');
+			_putchar(' ');
+		}
+	}
+}
+}
