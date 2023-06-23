@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * times_table -  prints out the time table from 0 to 9
  *
@@ -12,7 +13,8 @@ for (a = 0; a < 10; a++)
 	for (b = 0; b < 10; b++)
 	{
 		c = a * b;
-		_putchar(c + '0');
+		printf("%d",
+		c);
 		if (b < 9)
 		{
 			_putchar(',');
@@ -20,5 +22,6 @@ for (a = 0; a < 10; a++)
 			_putchar(' ');
 		}
 	}
+	_putchar('\n');
 }
 }
