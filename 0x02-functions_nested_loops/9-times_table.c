@@ -19,7 +19,7 @@ for (a = 0; a < 10; a++)
 		{
 			printf(",  ");
 		}
-		else (c > 10)
+		else if (c > 10)
 		{
 			printf(", ");
 	}
