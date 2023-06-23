@@ -17,11 +17,9 @@ for (a = 0; a < 10; a++)
 		c);
 		if (b < 9)
 		{
-			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
+			printf(",  ");
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 }
 }
