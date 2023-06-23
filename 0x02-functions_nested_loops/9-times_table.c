@@ -22,6 +22,7 @@ for (a = 0; a < 10; a++)
 		else if (c > 10)
 		{
 			printf(", ");
+		}
 	}
 	printf("\n");
 }
