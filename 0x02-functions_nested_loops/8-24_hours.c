@@ -19,7 +19,7 @@ for (a = 0; a < 24; a++)
 		}
 		else
 		{
-			printf("%d:%d",
+			printf("%d:%d\n",
 			a, b);
 		}
 	}
