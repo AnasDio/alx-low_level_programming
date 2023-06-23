@@ -17,9 +17,19 @@ for (a = 0; a < 24; a++)
 			printf("0%d:0%d\n",
 			a, b);
 		}
+		else if (b < 10 && a >= 10)
+		{
+			printf("%d:0%d\n",
+			a, b);
+		}
+		else if (a < 10 && b >= 10)
+		{
+			printf("0%d:%d\n",
+			a, b);
+		}
 		else
 		{
-			printf("%d:%d\n",
+			printf("%d:%d",
 			a, b);
 		}
 	}
