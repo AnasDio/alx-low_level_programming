@@ -15,10 +15,13 @@ for (a = 0; a < 10; a++)
 		c = a * b;
 		printf("%d",
 		c);
-		if (b < 9)
+		if (b < 9 && c < 10)
 		{
 			printf(",  ");
 		}
+		else (c > 10)
+		{
+			printf(", ");
 	}
 	printf("\n");
 }
