@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_rev - print a string in reverse
  *
@@ -14,15 +13,10 @@ while (*(s + i) != '\0')
 {
 	i++;
 }
+i--;
 while (i >= 0)
 {
-	if(*(s+i) == '\0')
-	{
-		continue;
-	}
-	printf("%c",
-	*(s + i));
-	i--;
+	_putchar(*(s + i));
 }
-printf("\n");
+_putchar('\n');
 }
