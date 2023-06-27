@@ -20,19 +20,16 @@ while (a < len && f == 0)
 	{
 		++k;
 	}
-
 	if (s[a] >= '0' && s[a] <= '9')
 	{
 		digit = s[a] - '0';
 		if (k % 2)
-		
 			digit = -digit;
 		x = x * 10 + digit;
 		f = 1;
 		if (s[a + 1] < '0' || s[a + 1] > '9')
 			break;
 		f = 0;
-		
 	}
 	a++;
 }
