@@ -16,6 +16,10 @@ while (*(s + i) != '\0')
 }
 while (i >= 0)
 {
+	if(*(s+i) == '\0')
+	{
+		continue;
+	}
 	printf("%c",
 	*(s + i));
 	i--;
