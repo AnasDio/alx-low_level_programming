@@ -12,7 +12,7 @@ int i, n, longi;
 
 longi = 0;
 
-for (i = 0; str[a] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 longi++;
 
 n = (longi / 2);
