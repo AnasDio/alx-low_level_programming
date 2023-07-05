@@ -12,7 +12,7 @@ char *_strpbrk(char *s, char *accept)
 
 	while (*(s + l))
 	{
-		while (*(accpet + i))
+		for (; *(accpet + i); )
 		{
 			if (*(s + l) == *(accept + i))
 			{
