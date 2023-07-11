@@ -8,12 +8,14 @@
  */
 char *_strdup(char *str)
 {
-	if (str == NULL)
-		return (0);
 	int i = 0;
 	int k = 0;
 	char *array;
 
+	if (str == NULL)
+	{
+		return (0);
+	}
 	while (*(str + i) != '\0')
 	{
 		i++;
