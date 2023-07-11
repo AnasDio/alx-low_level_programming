@@ -21,10 +21,10 @@ char *_strdup(char *str)
 		return (0);
 	}
 	array = malloc((i + 1) * sizeof(char));
-	while (k < i)
+	while (*(str + k))
 	{
-		k++;
 		*(array + k) = *(str + k);
+		k++;
 	}
 	return (array);
 }
