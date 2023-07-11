@@ -27,3 +27,4 @@ char *_strdup(char *str)
 		*(array + k) = *(str + k);
 	}
 	return (array);
+}
