@@ -12,7 +12,7 @@ char *_strdup(char *str)
 	int k = 0;
 	char *array;
 
-	while (*(str + i) != NULL)
+	while (*(str + i) != '\0')
 	{
 		i++;
 	}
@@ -27,4 +27,3 @@ char *_strdup(char *str)
 		*(array + k) = *(str + k);
 	}
 	return (array);
-
