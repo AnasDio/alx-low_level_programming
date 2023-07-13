@@ -24,7 +24,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i++;
 	while (*(s2 + k))
 		k++;
-	if (n == k || n > k)
+	if (n < k)
 		array = malloc((i + k + 1) * sizeof(char));
 		if (array == NULL)
 			return (0);
@@ -32,10 +32,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		array = malloc((i + n + 1) * sizeof(char));
 		if (array == NULL)
 			return (0);
-	while (*(s1 + z))
+	while (z > i)
 		array[z] = s1[z];
 		z++;
-	while (*(s2 + d))
+	while (d > k && s2[d])
 		array[z] = s2[d];
 		d++;
 		z++;
