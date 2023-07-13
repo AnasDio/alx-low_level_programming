@@ -16,9 +16,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int d = 0;
 	char *array;
 
-	while (*(s1 + i) && s1)
+	while (s1[i] && s1)
 		i++;
-	while (*(s2 + k) && s2)
+	while (s2[k] && s2)
 		k++;
 
 	if (n < k)
