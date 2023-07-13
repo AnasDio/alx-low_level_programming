@@ -30,12 +30,18 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (0);
 
 	while (z < i)
+	{
 		array[z] = s1[z];
 		z++;
+	}
 	while (n < k && z < (i + n))
+	{
 		array[z++] = s2[d++];
+        }
 	while (n >= k && z < (i + k))
+	{
 		array[z++] = s2[d++];
+	}
 	array[z] = '\0';
 	return (array);
 }
