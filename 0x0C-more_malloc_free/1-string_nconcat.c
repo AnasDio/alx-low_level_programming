@@ -37,7 +37,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (n < k && z < (i + n))
 	{
 		array[z++] = s2[d++];
-        }
+	}
 	while (n >= k && z < (i + k))
 	{
 		array[z++] = s2[d++];
